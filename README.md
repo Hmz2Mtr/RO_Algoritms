@@ -95,7 +95,9 @@ Submit a pull request with a detailed description of your changes.
 
 ## **🙏 Acknowledgments **
 EMSILes Orangers: For providing the inspiration and resources for this project.
-Hamza: Creator of the application.
-Mme Mouna elmkhalet: Supervisor of the project.
+
+Creator of the application: Hamza MESTOUR. 
+
+Supervisor of the project: Mme Mouna elmkhalet. 
 
 ---
