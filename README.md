@@ -1,39 +1,48 @@
-***Installation and Setup***
-**Prerequisites**
-Python 3.8 or higher: Make sure Python is installed on your system. You can download it from python.org.
+## **Prerequisites**
+Before you begin, ensure you have the following installed on your system:
 
-Git: Install Git to clone the repository. Download it from git-scm.com.
+1. **Python 3.8 or higher**:  
+   Download and install Python from [python.org](https://www.python.org/downloads/).
 
-**Step 1: Clone the Repository**
-Clone this repository to your local machine using the following command:
+2. **Git**:  
+   Install Git to clone the repository. Download it from [git-scm.com](https://git-scm.com/).
 
-Copy
+---
+
+## **Step 1: Clone the Repository**
+To get started, clone this repository to your local machine using the following command:
+
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-**Step 2: Install Dependencies**
-Install the required Python packages using pip. Run the following command:
+```
+## **Step 2: Install Dependencies**
+1. **Install the required Python packages using pip. Run the following command:**
 
-Copy
+```bash
 pip install -r requirements.txt
 If you don't have a requirements.txt file, install the dependencies manually:
-
-Copy
 pip install tkinter networkx matplotlib pillow
-**Step 3: Run the Application**
-To run the application, execute the following command:
+```
 
-Copy
+## **Step 3: Run the Application**
+1. **To run the application, execute the following command:**
+
+```bash
 python Run.py
+```
+
 Compiling the Project to an Executable
 To compile the project into a standalone executable, use PyInstaller. Run the following command:
 
-Copy
+```bash
 pyinstaller --onefile --windowed --hidden-import networkx --hidden-import PIL --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg Run.py
-What This Command Does
---onefile: Bundles the application into a single executable file.
+```
+**What This Command Does**
+1. --onefile: Bundles the application into a single executable file.
 
---windowed: Prevents a console window from appearing (for GUI applications).
+2. --windowed: Prevents a console window from appearing (for GUI applications).
 
---hidden-import: Ensures that specific modules (networkx, PIL, matplotlib, etc.) are included in the build.
+3. --hidden-import: Ensures that specific modules (networkx, PIL, matplotlib, etc.) are included in the build.
 
-The executable will be located in the dist folder.
+**The executable will be located in the dist folder.**
