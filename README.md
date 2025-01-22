@@ -92,12 +92,10 @@ Create a new branch for your feature or bugfix.
 Commit your changes and push them to your fork.
 Submit a pull request with a detailed description of your changes.
 
-## **📜 License **
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## **🙏 Acknowledgments **
 EMSILes Orangers: For providing the inspiration and resources for this project.
-MESTOUR Hamza: Creator of the application.
+Hamza: Creator of the application.
 Mme Mouna elmkhalet: Supervisor of the project.
 
 ---
