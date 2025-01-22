@@ -51,3 +51,53 @@ c. --hidden-import: Ensures that specific modules (networkx, PIL, matplotlib, et
 ```bash
 Run.exe
 ```
+---
+
+## **📂 Project Structure**
+```bash
+your-repo-name/
+├── Algos/                   # Folder containing algorithm implementations
+│   ├── algo_create_directed_graph.py
+│   ├── algo_welsh_powell.py
+│   ├── algo_kruskal.py
+│   └── ...
+├── media/                   # Folder for media files (e.g., logos)
+│   └── emsi_logo.png
+├── Run.py                   # Main script to run the application
+├── requirements.txt         # List of dependencies
+└── README.md                # This file
+```
+
+## **🖥️ Usage **
+a. Launch the application by running Run.py or the compiled executable.
+
+b. Select an algorithm from the list of available options.
+
+c. Provide the required inputs (e.g., number of vertices, factories, stores).
+
+d. View the results in the text area and the graph visualization in the Matplotlib canvas.
+
+e. Toggle between light and dark mode using the theme switcher button.
+
+## **📦 Dependencies **
+tkinter: For the GUI.
+networkx: For graph creation and manipulation.
+matplotlib: For graph visualization.
+Pillow: For image handling (e.g., loading the EMSI logo).
+
+## **🤝 Contributing **
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+Fork the repository.
+Create a new branch for your feature or bugfix.
+Commit your changes and push them to your fork.
+Submit a pull request with a detailed description of your changes.
+
+## **📜 License **
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## **🙏 Acknowledgments **
+EMSILes Orangers: For providing the inspiration and resources for this project.
+MESTOUR Hamza: Creator of the application.
+Mme Mouna elmkhalet: Supervisor of the project.
+
+---
