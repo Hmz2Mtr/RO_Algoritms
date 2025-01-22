@@ -17,11 +17,13 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 ## **Step 2: Install Dependencies**
-1. **Install the required Python packages using pip. Run the following command:**
+1. **Install the required Python packages using requirements.txt file or pip command. Run the following command:**
 
 ```bash
 pip install -r requirements.txt
-If you don't have a requirements.txt file, install the dependencies manually:
+```
+**Or install the dependencies manually:**
+```bash
 pip install tkinter networkx matplotlib pillow
 ```
 
@@ -39,10 +41,13 @@ To compile the project into a standalone executable, use PyInstaller. Run the fo
 pyinstaller --onefile --windowed --hidden-import networkx --hidden-import PIL --hidden-import matplotlib --hidden-import matplotlib.backends.backend_tkagg Run.py
 ```
 **What This Command Does**
-1. --onefile: Bundles the application into a single executable file.
+a. --onefile: Bundles the application into a single executable file.
 
-2. --windowed: Prevents a console window from appearing (for GUI applications).
+b. --windowed: Prevents a console window from appearing (for GUI applications).
 
-3. --hidden-import: Ensures that specific modules (networkx, PIL, matplotlib, etc.) are included in the build.
+c. --hidden-import: Ensures that specific modules (networkx, PIL, matplotlib, etc.) are included in the build.
 
-**The executable will be located in the dist folder.**
+2. **The executable will be located in the dist folder.**
+```bash
+Run.exe
+```
