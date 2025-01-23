@@ -98,6 +98,6 @@ EMSILes Orangers: For providing the inspiration and resources for this project.
 
 Creator of the application: Hamza MESTOUR. 
 
-Supervisor of the project: Mme Mouna elmkhalet. 
+Supervisor of the project: Mme Mouna EL Mkhalet. 
 
 ---
