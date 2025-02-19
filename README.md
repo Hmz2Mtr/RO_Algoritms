@@ -92,12 +92,3 @@ Create a new branch for your feature or bugfix.
 Commit your changes and push them to your fork.
 Submit a pull request with a detailed description of your changes.
 
-
-## **🙏 Acknowledgments **
-EMSILes Orangers: For providing the inspiration and resources for this project.
-
-Creator of the application: Hamza MESTOUR. 
-
-Supervisor of the project: Mme Mouna EL Mkhalet. 
-
----
